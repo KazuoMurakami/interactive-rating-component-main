@@ -1,0 +1,153 @@
+* {
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: hsl(217, 12%, 63%);
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+    background: hsl(216, 12%, 8%);
+}
+
+body h1 {
+    color: aliceblue;
+}
+
+
+main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container {
+    background-color: hsl(210, 26%, 9%);
+    display: flex;
+    padding: 1rem;
+    width: 500px;
+    border: 1px solid hsl(210, 19%, 14%);
+    border-radius: 15px;
+}
+
+.img-estrela{
+    height: 50px;
+    width: 50px;
+    background-color: hsl(213, 19%, 18%);
+    border: 1px solid transparent;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.img-estrela img {
+    height: 20px;
+}
+
+.content-text h1{
+    margin-bottom: 1rem;
+}
+
+.content-text {
+    font-size: 17px;
+}
+
+ul {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+ul li {
+    font-size: 25px;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(213, 19%, 18%);
+    border: 2px solid hsl(213, 19%, 18%);
+    border-radius: 50%;
+}
+.btn-main {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    
+}
+.btn-main button{
+    border-style: none;
+    font-size: 17px;
+    letter-spacing: 5px;
+    font-weight: 400;
+    cursor: pointer;
+    color: aliceblue;
+    width: 100%;
+    height: 45px;
+    background: hsl(25, 97%, 53%);
+    border-radius: 20px;
+    border-width: 2px;
+    transition: 1s;
+}
+
+.btn-main button:hover {
+    background: aliceblue;
+    color: hsl(25, 97%, 53%);
+}
+
+
+
+.hidden {
+    display: none;
+}
+
+.toogle-button {
+    color: white;
+    background: hsl(25, 97%, 53%);
+}
+
+/* Segunda parte */
+
+.second-container {
+    background-color: hsl(210, 26%, 9%);
+    padding: 1rem;
+    width: 500px;
+    border: 1px solid hsl(210, 19%, 14%);
+    border-radius: 15px;
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+}
+
+.second-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 17px;
+}
+
+.second-text span {
+    border: 1px solid hsl(210, 21%, 19%);
+    font-size: 13px;
+    background: hsl(210, 21%, 19%);
+    color: hsl(25, 97%, 53%);
+    letter-spacing: 2px;
+    border-radius: 30px;
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.second-text h1 {
+    margin-bottom: .5rem;
+}
